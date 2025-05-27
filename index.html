@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kabilash | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔁 Light/Dark Mode Toggle -->
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="themeSwitcher">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <div class="center-content">
+    <div class="image-wrapper">
+      <img src="kabi.jpg" alt="Kabilash DP" class="profile-pic"/>
+    </div>
+    <h1>KABILASH S</h1>
+    <p class="subtitle">CSE Student | AI/ML Developer | 3D Modeler </p>
+    <div class="button-group">
+      <a href="https://github.com/Kabilash01" class="primary-btn" target="_blank">GitHub</a>
+      <button class="primary-btn" onclick="downloadResume()">Download Resume</button>
+      <a href="#contact" class="primary-btn">Contact Me</a>
+      </div>
+    <div class="about-intro">
+      <p>
+        I'm a Computer Science and Engineering student with a strong focus on <strong>Artificial Intelligence and Data Analytics</strong>. Passionate about building intelligent systems, I specialize in <strong>Machine learning, computer vision, and real-time data-driven applications</strong>. I enjoy turning complex data into actionable insights and developing innovative AI solutions that solve real-world problems.
+      </p>
+    </div>
+  </div>
+
+  <!-- ✅ Skills Section -->
+  <div class="section" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, Java, JavaScript, C++, C</li>
+      <li><strong>Frameworks & Libraries:</strong> TensorFlow, PyTorch, OpenCV, Pandas</li>
+      <li><strong>AI/ML Expertise:</strong> Text/Image Generation, Recommendation Systems, Facial Recognition</li>
+      <li><strong>Software & Tools:</strong> MS Excel, Tableau, MySQL, MongoDB, Blender</li>
+      <li><strong>Hardware & IoT:</strong> Raspberry Pi</li>
+    </ul>
+  </div>
+
+  <hr class="section-divider" />
+
+  <!-- ✅ Projects with Cards -->
+  <div class="section" id="projects">
+    <h2> Featured Projects</h2>
+
+    <div class="project-card">
+      <div class="card-content">
+        <h3>🚗 RHINO-Real-time Hazard Identification and Navigation Optimization </h3>
+        <p>RHINO is a smart vehicle safety system that detects crashes in real-time and predicts rear-end collisions under low visibility using AI and sensor data. It sends instant alerts and is designed for low-cost, scalable deployment in smart transportation systems..</p>
+        <p><strong>Tech Stack:</strong> Python,TensorFlow,Pytorch,YOLO,BPNN.</p>
+        <a href="https://github.com/Kabilash01/RHINO-CAR" target="_blank">View Repo →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-content">
+        <h3>🩺MEDIBOT: Personalized Medicine Recommendation Chatbot via Web Application</h3>
+        <p>
+          A real-time medical chatbot built with Meta’s LLaMA2 model, optimized for GPU. It delivers accurate, context-aware responses to healthcare queries using advanced NLP.
+          <p><strong>Tech Stack:</strong> Python, LLaMA2,MiniLM embedding, GPU acceleration.</p>
+        <a href="https://github.com/Kabilash01/Medibot-Chatbot-using-llama2-GPU" target="_blank">View Repo →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-content">
+        <h3>🚦 Traffic Signal Optimization using Reinforcement Learning & QNN</h3>
+        <p>Developed an AI-based system to optimize traffic light timings using Q-Learning and Quantum Neural Networks (QNN). The model intelligently reduces congestion by learning optimal signal phases from traffic flow patterns in SUMO simulations.</p>
+        <p><strong>Tech Stack:</strong> Python, TensorFlow, Qiskit, SUMO, Q-Learning, Matplotlib, Pandas</p>
+        <a href="https://github.com/Kabilash01/Traffic-Light-Signal-Optimization-With-Reinforcement-Learning-and-QNN" target="_blank">View Repo →</a>
+      </div>
+    </div>
+  </div>
+  <!-- ✅ Research Papers Section -->
+<div class="section" id="research">
+  <h2>Research Papers</h2>
+  <ul>
+    <li>
+      <strong>MEDIBOT: Personalized Medicine Recommendation Chatbot via Web Application</strong><br>
+        <i>Presented at 7th International Conference on Communication and Computational Technologies (ICCCT 2025) (pending publication)</i>
+      <p>
+      <strong>Overview:</strong>AI chatbot offering real-time, personalized medical advice using LLaMA2, NLP, and vector search for accurate symptom analysis and fast responses.
+      </p>
+    </li>
+  </ul>
+</div>
+
+
+  <hr class="section-divider" />
+
+  <!-- ✅ Education -->
+  <div class="section" id="education">
+    <h2>Education</h2>
+    <p><strong>Sri Ramachandra Faculty of Engineering and Technology (SRET), SRIHER – Chennai, India</strong><br>
+    B.Tech in CSE - AI & Data Analytics<br>
+    CGPA: 9.1 (up to 4th semester)<br>
+    Expected Graduation: 2027</p>
+    <br>
+    <p><strong>CK School of Practical Knowledge – Cuddalore, India</strong><br>
+    10th Grade: 92.8%<br>
+    12th Grade: 85.8%</p>
+  </div>
+
+  <hr class="section-divider" />
+
+  <!-- ✅ Achievements -->
+  <div class="section" id="achievements">
+    <h2>Achievements & Participation</h2>
+    <ul>
+      <li>Participated in <strong>AI Summit Hackathon</strong> at SRM Kattankulathur</li>
+      <li>Presented <strong>RHINO-X</strong> at Tech Expo</li>
+      <li><strong>3rd Prize</strong> at Research Day 2025</li>
+      <li>Presented research paper <strong>“Medibot: Personalized Healthcare Chatbot using LLaMA2”</strong> at <strong>7th ICCCT 2025</strong></li>
+    </ul>
+  </div>
+
+  <hr class="section-divider" />
+
+  <!-- ✅ Contact -->
+  <div class="section" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-buttons">
+      <a href="mailto:kabilash0108@gmail.com" class="contact-btn" target="_blank">📧 Email</a>
+      <a href="https://www.linkedin.com/in/kabilash-s-a54685290/" class="contact-btn" target="_blank">💼 LinkedIn</a>
+      <a href="https://t.me/kabilash1" class="contact-btn" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="icon" alt="Telegram Icon" />
+        Telegram
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
